@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jDR-Mp-pnG">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Headphones-->
+        <scene sceneID="4Ws-gz-6YH">
+            <objects>
+                <viewController id="jDR-Mp-pnG" userLabel="Headphones" customClass="HeadphonesViewController" customModule="Skullcandy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DzO-K2-FPX">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="mo1-MR-VBx">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="TuV-pA-Vmr">
+                                    <size key="itemSize" width="300" height="420"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="HeadphonesVC" reuseIdentifier="HeadphonesCell" id="O8n-rp-NIw" customClass="HeadphonesCollectionViewCell" customModule="Skullcandy" customModuleProvider="target">
+                                        <rect key="frame" x="57" y="0.0" width="300" height="420"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="ll4-GU-Upd">
+                                            <rect key="frame" x="0.0" y="0.0" width="300" height="420"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="#h16" translatesAutoresizingMaskIntoConstraints="NO" id="cQk-KE-sRn">
+                                                    <rect key="frame" x="5" y="5" width="290" height="315"/>
+                                                </imageView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="MVt-i5-MRA">
+                                                    <rect key="frame" x="0.0" y="320" width="300" height="100"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Skullcandy Crusher ANC Wireless" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ikr-ar-qxf">
+                                                            <rect key="frame" x="0.0" y="0.0" width="300" height="68"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Ee7-02-I0c">
+                                                            <rect key="frame" x="0.0" y="68" width="300" height="32"/>
+                                                            <subviews>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2iO-MF-ARo">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="150" height="32"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PNd-9j-tGi">
+                                                                    <rect key="frame" x="150" y="0.0" width="150" height="32"/>
+                                                                    <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                    <state key="normal" title="Button"/>
+                                                                    <buttonConfiguration key="configuration" style="plain" title="Show details">
+                                                                        <fontDescription key="titleFontDescription" type="system" pointSize="15"/>
+                                                                        <color key="baseForegroundColor" name="Dark"/>
+                                                                    </buttonConfiguration>
+                                                                    <connections>
+                                                                        <segue destination="YI0-dL-v33" kind="show" id="Xqa-yC-vmL"/>
+                                                                    </connections>
+                                                                </button>
+                                                            </subviews>
+                                                        </stackView>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="cQk-KE-sRn" firstAttribute="top" secondItem="ll4-GU-Upd" secondAttribute="top" constant="5" id="LUa-9a-fOl"/>
+                                                <constraint firstItem="cQk-KE-sRn" firstAttribute="leading" secondItem="ll4-GU-Upd" secondAttribute="leading" constant="5" id="M4U-rx-pf0"/>
+                                                <constraint firstAttribute="trailing" secondItem="MVt-i5-MRA" secondAttribute="trailing" id="Wce-UW-hRe"/>
+                                                <constraint firstAttribute="bottom" secondItem="MVt-i5-MRA" secondAttribute="bottom" id="a3I-nO-yLz"/>
+                                                <constraint firstItem="MVt-i5-MRA" firstAttribute="leading" secondItem="ll4-GU-Upd" secondAttribute="leading" id="aP1-fX-8er"/>
+                                                <constraint firstAttribute="bottom" secondItem="cQk-KE-sRn" secondAttribute="bottom" constant="100" id="boO-Ch-X3z"/>
+                                                <constraint firstItem="MVt-i5-MRA" firstAttribute="top" secondItem="cQk-KE-sRn" secondAttribute="bottom" id="m0B-9Y-TDT"/>
+                                                <constraint firstAttribute="trailing" secondItem="cQk-KE-sRn" secondAttribute="trailing" constant="5" id="uHw-Iz-2uK"/>
+                                            </constraints>
+                                        </collectionViewCellContentView>
+                                        <size key="customSize" width="300" height="420"/>
+                                        <connections>
+                                            <outlet property="Favourit" destination="PNd-9j-tGi" id="Mg8-9q-jsF"/>
+                                            <outlet property="HeadphonesImageView" destination="cQk-KE-sRn" id="mUT-6t-tbv"/>
+                                            <outlet property="Name" destination="Ikr-ar-qxf" id="Ad0-mu-lu0"/>
+                                            <outlet property="NameCell" destination="Ikr-ar-qxf" id="I2p-Df-rvY"/>
+                                            <outlet property="Price" destination="2iO-MF-ARo" id="3A5-qV-4qh"/>
+                                            <outlet property="PriceCell" destination="2iO-MF-ARo" id="vUF-zM-meV"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="V3f-Dk-unu"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="V3f-Dk-unu" firstAttribute="bottom" secondItem="mo1-MR-VBx" secondAttribute="bottom" id="4sc-GS-PGK"/>
+                            <constraint firstItem="mo1-MR-VBx" firstAttribute="top" secondItem="V3f-Dk-unu" secondAttribute="top" id="7d1-Rr-pMx"/>
+                            <constraint firstItem="mo1-MR-VBx" firstAttribute="leading" secondItem="V3f-Dk-unu" secondAttribute="leading" id="xB9-ER-FfL"/>
+                            <constraint firstItem="V3f-Dk-unu" firstAttribute="trailing" secondItem="mo1-MR-VBx" secondAttribute="trailing" id="xaz-MX-YnQ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Headphones" id="sWD-Uo-DRD"/>
+                    <connections>
+                        <outlet property="HeadphonesCollectionVC" destination="mo1-MR-VBx" id="jCZ-Oa-njd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b2W-yv-5Vr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2228.985507246377" y="-1790.625"/>
+        </scene>
+        <!--DisctwoVC-->
+        <scene sceneID="Nbg-bG-05S">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="DisctwoVC" storyboardName="TabBar" referencedIdentifier="DisctwoVC" id="YI0-dL-v33" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="xzN-23-egz"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UZy-Iu-bZi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2845" y="-1791"/>
+        </scene>
+        <!--HeadphonesVC-->
+        <scene sceneID="1Cb-cv-xZJ">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="HeadphonesVC" storyboardName="TabBar" referencedIdentifier="HeadphonesVC" id="oYw-bU-9ny" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="nI7-6u-Fcz"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kR0-yq-ED1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2825" y="-1852"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="#h16" width="1350" height="1252"/>
+        <namedColor name="Dark">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

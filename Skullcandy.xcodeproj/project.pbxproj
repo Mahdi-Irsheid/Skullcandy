@@ -1,0 +1,835 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		602CAA58C134FE4FDFF07B14 /* Pods_Skullcandy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9A7A5F5ED541CFC69C02446 /* Pods_Skullcandy.framework */; };
+		DA0822AD28C82D2A000BD3A9 /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA0822AF28C82D2A000BD3A9 /* TabBar.storyboard */; };
+		DA0822B428C82D4E000BD3A9 /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA0822B628C82D4E000BD3A9 /* SignUp.storyboard */; };
+		DA0822BB28C82DBB000BD3A9 /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA0822BD28C82DBB000BD3A9 /* Authentication.storyboard */; };
+		DA0822C628C8BF38000BD3A9 /* EarbudsCell.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA0822C828C8BF38000BD3A9 /* EarbudsCell.storyboard */; };
+		DA0822CD28C8BFCC000BD3A9 /* HeadphonesCell.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA0822CF28C8BFCC000BD3A9 /* HeadphonesCell.storyboard */; };
+		DA0822D628C8C3EE000BD3A9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA0822D828C8C3EE000BD3A9 /* Localizable.strings */; };
+		DA10509228BE8A6B00695322 /* DiscTwoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA10509128BE8A6B00695322 /* DiscTwoCollectionViewCell.swift */; };
+		DA14328728BCBD0C00418201 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA14328628BCBD0C00418201 /* AppDelegate.swift */; };
+		DA14328B28BCBD0C00418201 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA14328A28BCBD0C00418201 /* ViewController.swift */; };
+		DA14328E28BCBD0C00418201 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA14328C28BCBD0C00418201 /* Main.storyboard */; };
+		DA14329028BCBD0D00418201 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA14328F28BCBD0D00418201 /* Assets.xcassets */; };
+		DA14329328BCBD0D00418201 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA14329128BCBD0D00418201 /* LaunchScreen.storyboard */; };
+		DA1432B128BCC1FA00418201 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1432B028BCC1FA00418201 /* AuthenticationViewController.swift */; };
+		DA1432B428BCC25A00418201 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1432B328BCC25A00418201 /* SignInViewController.swift */; };
+		DA1432B628BCC26F00418201 /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1432B528BCC26F00418201 /* ForgetPasswordViewController.swift */; };
+		DA1432B828BCC27E00418201 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1432B728BCC27E00418201 /* TabBarViewController.swift */; };
+		DA1432BA28BCC39200418201 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1432B928BCC39200418201 /* Constants.swift */; };
+		DA1432BC28BCC3A200418201 /* ScreenOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1432BB28BCC3A200418201 /* ScreenOneViewController.swift */; };
+		DA1432BE28BCC3B600418201 /* ScreenTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1432BD28BCC3B600418201 /* ScreenTwoViewController.swift */; };
+		DA1432C028BCC3C500418201 /* ScreenFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1432BF28BCC3C500418201 /* ScreenFourViewController.swift */; };
+		DA1432C228BCC3D500418201 /* ScreenThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1432C128BCC3D500418201 /* ScreenThreeViewController.swift */; };
+		DA1432C428BCC40100418201 /* CheckOutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1432C328BCC40100418201 /* CheckOutVC.swift */; };
+		DA1432C628BCC42000418201 /* CartData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1432C528BCC42000418201 /* CartData.swift */; };
+		DA1432C828BCC43400418201 /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1432C728BCC43400418201 /* CartTableViewCell.swift */; };
+		DA1432CA28BCC47F00418201 /* DiscVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1432C928BCC47F00418201 /* DiscVC.swift */; };
+		DA1432CC28BCC49100418201 /* ImagesArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1432CB28BCC49100418201 /* ImagesArray.swift */; };
+		DA1432CE28BCC4B000418201 /* EarbudsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1432CD28BCC4B000418201 /* EarbudsViewController.swift */; };
+		DA1432D028BCC50500418201 /* EarbudsCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1432CF28BCC50500418201 /* EarbudsCollectionVC.swift */; };
+		DA1432D228BCC51A00418201 /* EarbudsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1432D128BCC51A00418201 /* EarbudsCollectionViewCell.swift */; };
+		DA1432D428BCC52D00418201 /* EarbudsImagesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1432D328BCC52D00418201 /* EarbudsImagesCollectionViewCell.swift */; };
+		DA1432D628BCC57800418201 /* HeadphonesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1432D528BCC57800418201 /* HeadphonesViewController.swift */; };
+		DA1432D828BCC58B00418201 /* HeadphonesCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1432D728BCC58B00418201 /* HeadphonesCollectionVC.swift */; };
+		DA1432DA28BCC59E00418201 /* HadphonesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1432D928BCC59D00418201 /* HadphonesCollectionViewCell.swift */; };
+		DA1432DC28BCC5AD00418201 /* HeadphonesImagesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1432DB28BCC5AD00418201 /* HeadphonesImagesCollectionViewCell.swift */; };
+		DA1432E228BCC5EF00418201 /* CartCell.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1432E128BCC5EF00418201 /* CartCell.storyboard */; };
+		DA1432E628BCC63A00418201 /* SignUpViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1432E528BCC63A00418201 /* SignUpViewController.storyboard */; };
+		DA1432EA28BCC65700418201 /* SignInViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1432E928BCC65700418201 /* SignInViewController.storyboard */; };
+		DA1432EE28BCC6AC00418201 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1432ED28BCC6AC00418201 /* SignUpViewController.swift */; };
+		DA1432F028BCC6DE00418201 /* CellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1432EF28BCC6DE00418201 /* CellData.swift */; };
+		DA1432F228BCC72A00418201 /* DiscCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1432F128BCC72A00418201 /* DiscCollectionViewCell.swift */; };
+		DA597E0228BE87CA00DC52F2 /* DiscTwoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA597E0128BE87CA00DC52F2 /* DiscTwoVC.swift */; };
+		DA666C4828CD0D190084116D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DA666C4728CD0D190084116D /* GoogleService-Info.plist */; };
+		DA98D71B28BEDBB2003B2E63 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA98D71A28BEDBB2003B2E63 /* AboutUsViewController.swift */; };
+		DA98D72128BEEAD4003B2E63 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA98D72028BEEAD4003B2E63 /* HelpViewController.swift */; };
+		DADBD6B128C246BB00E15171 /* listening-music.json in Resources */ = {isa = PBXBuildFile; fileRef = DADBD6B028C246BB00E15171 /* listening-music.json */; };
+		DADBD6B328C2737B00E15171 /* Earbuds.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADBD6B228C2737B00E15171 /* Earbuds.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4DE25DA0CEC98945878C5C11 /* Pods-Skullcandy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skullcandy.release.xcconfig"; path = "Target Support Files/Pods-Skullcandy/Pods-Skullcandy.release.xcconfig"; sourceTree = "<group>"; };
+		DA0822A828C82C57000BD3A9 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		DA0822AC28C82CDE000BD3A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		DA0822AE28C82D2A000BD3A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TabBar.storyboard; sourceTree = "<group>"; };
+		DA0822B128C82D2F000BD3A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/TabBar.strings; sourceTree = "<group>"; };
+		DA0822B328C82D3B000BD3A9 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/TabBar.strings; sourceTree = "<group>"; };
+		DA0822B528C82D4E000BD3A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SignUp.storyboard; sourceTree = "<group>"; };
+		DA0822B828C82D58000BD3A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/SignUp.strings; sourceTree = "<group>"; };
+		DA0822BA28C82D8B000BD3A9 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/SignUp.strings; sourceTree = "<group>"; };
+		DA0822BC28C82DBB000BD3A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Authentication.storyboard; sourceTree = "<group>"; };
+		DA0822BF28C82DC7000BD3A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Authentication.strings; sourceTree = "<group>"; };
+		DA0822C128C82DF6000BD3A9 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Authentication.strings; sourceTree = "<group>"; };
+		DA0822C328C84443000BD3A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		DA0822C528C8444D000BD3A9 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		DA0822C728C8BF38000BD3A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/EarbudsCell.storyboard; sourceTree = "<group>"; };
+		DA0822CA28C8BF3D000BD3A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/EarbudsCell.strings; sourceTree = "<group>"; };
+		DA0822CC28C8BF6D000BD3A9 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/EarbudsCell.strings; sourceTree = "<group>"; };
+		DA0822CE28C8BFCC000BD3A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/HeadphonesCell.storyboard; sourceTree = "<group>"; };
+		DA0822D128C8C001000BD3A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/HeadphonesCell.strings; sourceTree = "<group>"; };
+		DA0822D328C8C033000BD3A9 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/HeadphonesCell.strings; sourceTree = "<group>"; };
+		DA0822D728C8C3EE000BD3A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DA0822DA28C8C68D000BD3A9 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DA10509128BE8A6B00695322 /* DiscTwoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscTwoCollectionViewCell.swift; sourceTree = "<group>"; };
+		DA14328328BCBD0C00418201 /* Skullcandy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Skullcandy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA14328628BCBD0C00418201 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA14328A28BCBD0C00418201 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA14328D28BCBD0C00418201 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA14328F28BCBD0D00418201 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA14329228BCBD0D00418201 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA14329428BCBD0D00418201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA1432B028BCC1FA00418201 /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		DA1432B328BCC25A00418201 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		DA1432B528BCC26F00418201 /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
+		DA1432B728BCC27E00418201 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		DA1432B928BCC39200418201 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DA1432BB28BCC3A200418201 /* ScreenOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenOneViewController.swift; sourceTree = "<group>"; };
+		DA1432BD28BCC3B600418201 /* ScreenTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTwoViewController.swift; sourceTree = "<group>"; };
+		DA1432BF28BCC3C500418201 /* ScreenFourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenFourViewController.swift; sourceTree = "<group>"; };
+		DA1432C128BCC3D500418201 /* ScreenThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenThreeViewController.swift; sourceTree = "<group>"; };
+		DA1432C328BCC40100418201 /* CheckOutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOutVC.swift; sourceTree = "<group>"; };
+		DA1432C528BCC42000418201 /* CartData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartData.swift; sourceTree = "<group>"; };
+		DA1432C728BCC43400418201 /* CartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
+		DA1432C928BCC47F00418201 /* DiscVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscVC.swift; sourceTree = "<group>"; };
+		DA1432CB28BCC49100418201 /* ImagesArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesArray.swift; sourceTree = "<group>"; };
+		DA1432CD28BCC4B000418201 /* EarbudsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarbudsViewController.swift; sourceTree = "<group>"; };
+		DA1432CF28BCC50500418201 /* EarbudsCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarbudsCollectionVC.swift; sourceTree = "<group>"; };
+		DA1432D128BCC51A00418201 /* EarbudsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarbudsCollectionViewCell.swift; sourceTree = "<group>"; };
+		DA1432D328BCC52D00418201 /* EarbudsImagesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarbudsImagesCollectionViewCell.swift; sourceTree = "<group>"; };
+		DA1432D528BCC57800418201 /* HeadphonesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadphonesViewController.swift; sourceTree = "<group>"; };
+		DA1432D728BCC58B00418201 /* HeadphonesCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadphonesCollectionVC.swift; sourceTree = "<group>"; };
+		DA1432D928BCC59D00418201 /* HadphonesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HadphonesCollectionViewCell.swift; sourceTree = "<group>"; };
+		DA1432DB28BCC5AD00418201 /* HeadphonesImagesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadphonesImagesCollectionViewCell.swift; sourceTree = "<group>"; };
+		DA1432E128BCC5EF00418201 /* CartCell.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CartCell.storyboard; sourceTree = "<group>"; };
+		DA1432E528BCC63A00418201 /* SignUpViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUpViewController.storyboard; sourceTree = "<group>"; };
+		DA1432E928BCC65700418201 /* SignInViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignInViewController.storyboard; sourceTree = "<group>"; };
+		DA1432ED28BCC6AC00418201 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		DA1432EF28BCC6DE00418201 /* CellData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellData.swift; sourceTree = "<group>"; };
+		DA1432F128BCC72A00418201 /* DiscCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscCollectionViewCell.swift; sourceTree = "<group>"; };
+		DA597DFC28BE4E1800DC52F2 /* Skullcandy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Skullcandy.entitlements; sourceTree = "<group>"; };
+		DA597E0128BE87CA00DC52F2 /* DiscTwoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscTwoVC.swift; sourceTree = "<group>"; };
+		DA666C4728CD0D190084116D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DA98D71928BECF27003B2E63 /* Configuration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration.storekit; sourceTree = "<group>"; };
+		DA98D71A28BEDBB2003B2E63 /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		DA98D72028BEEAD4003B2E63 /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		DADBD6B028C246BB00E15171 /* listening-music.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "listening-music.json"; sourceTree = "<group>"; };
+		DADBD6B228C2737B00E15171 /* Earbuds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Earbuds.swift; sourceTree = "<group>"; };
+		E9A7A5F5ED541CFC69C02446 /* Pods_Skullcandy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Skullcandy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F773576BA794F46B44CD09C4 /* Pods-Skullcandy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Skullcandy.debug.xcconfig"; path = "Target Support Files/Pods-Skullcandy/Pods-Skullcandy.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA14328028BCBD0C00418201 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				602CAA58C134FE4FDFF07B14 /* Pods_Skullcandy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		171EB88F7BBD1E3E8F73BC8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F773576BA794F46B44CD09C4 /* Pods-Skullcandy.debug.xcconfig */,
+				4DE25DA0CEC98945878C5C11 /* Pods-Skullcandy.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B9697AC10882FD19A099E166 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9A7A5F5ED541CFC69C02446 /* Pods_Skullcandy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA14327A28BCBD0C00418201 = {
+			isa = PBXGroup;
+			children = (
+				DA14328528BCBD0C00418201 /* Skullcandy */,
+				DA14328428BCBD0C00418201 /* Products */,
+				171EB88F7BBD1E3E8F73BC8B /* Pods */,
+				B9697AC10882FD19A099E166 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DA14328428BCBD0C00418201 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA14328328BCBD0C00418201 /* Skullcandy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA14328528BCBD0C00418201 /* Skullcandy */ = {
+			isa = PBXGroup;
+			children = (
+				DA597DFC28BE4E1800DC52F2 /* Skullcandy.entitlements */,
+				DA1432A328BCBFC200418201 /* Details */,
+				DA14328628BCBD0C00418201 /* AppDelegate.swift */,
+				DA14328A28BCBD0C00418201 /* ViewController.swift */,
+				DA14328C28BCBD0C00418201 /* Main.storyboard */,
+				DA14328F28BCBD0D00418201 /* Assets.xcassets */,
+				DA14329128BCBD0D00418201 /* LaunchScreen.storyboard */,
+				DA666C4728CD0D190084116D /* GoogleService-Info.plist */,
+				DA14329428BCBD0D00418201 /* Info.plist */,
+			);
+			path = Skullcandy;
+			sourceTree = "<group>";
+		};
+		DA14329E28BCBFAC00418201 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				DA1432AA28BCC0D800418201 /* StoryBoard */,
+				DA1432B928BCC39200418201 /* Constants.swift */,
+				DA1432BB28BCC3A200418201 /* ScreenOneViewController.swift */,
+				DA1432BD28BCC3B600418201 /* ScreenTwoViewController.swift */,
+				DA1432C128BCC3D500418201 /* ScreenThreeViewController.swift */,
+				DA1432BF28BCC3C500418201 /* ScreenFourViewController.swift */,
+				DA98D71A28BEDBB2003B2E63 /* AboutUsViewController.swift */,
+				DA98D72028BEEAD4003B2E63 /* HelpViewController.swift */,
+				DA1432A528BCBFE100418201 /* Cart */,
+				DA0822D828C8C3EE000BD3A9 /* Localizable.strings */,
+			);
+			name = Screens;
+			path = ../Screens;
+			sourceTree = "<group>";
+		};
+		DA1432A028BCBFB800418201 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				DA0822AF28C82D2A000BD3A9 /* TabBar.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		DA1432A228BCBFBE00418201 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				DA1432B728BCC27E00418201 /* TabBarViewController.swift */,
+				DA1432A028BCBFB800418201 /* StoryBoard */,
+			);
+			name = TabBar;
+			path = "../New Group1/TabBar";
+			sourceTree = "<group>";
+		};
+		DA1432A328BCBFC200418201 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				DA1432A828BCC00F00418201 /* Authentication */,
+				DA1432A228BCBFBE00418201 /* TabBar */,
+				DA14329E28BCBFAC00418201 /* Screens */,
+				DA1432A628BCBFE300418201 /* Earbuds */,
+				DA1432A428BCBFDF00418201 /* Headphones */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		DA1432A428BCBFDF00418201 /* Headphones */ = {
+			isa = PBXGroup;
+			children = (
+				DA1432AD28BCC12300418201 /* StoryBoard */,
+				DA1432D528BCC57800418201 /* HeadphonesViewController.swift */,
+				DA597E0128BE87CA00DC52F2 /* DiscTwoVC.swift */,
+				DA10509128BE8A6B00695322 /* DiscTwoCollectionViewCell.swift */,
+				DA1432D728BCC58B00418201 /* HeadphonesCollectionVC.swift */,
+				DA1432D928BCC59D00418201 /* HadphonesCollectionViewCell.swift */,
+				DA1432DB28BCC5AD00418201 /* HeadphonesImagesCollectionViewCell.swift */,
+			);
+			path = Headphones;
+			sourceTree = "<group>";
+		};
+		DA1432A528BCBFE100418201 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				DA1432C328BCC40100418201 /* CheckOutVC.swift */,
+				DA1432C728BCC43400418201 /* CartTableViewCell.swift */,
+				DA1432C528BCC42000418201 /* CartData.swift */,
+				DA98D71928BECF27003B2E63 /* Configuration.storekit */,
+				DA1432AB28BCC0DF00418201 /* StoryBoard */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		DA1432A628BCBFE300418201 /* Earbuds */ = {
+			isa = PBXGroup;
+			children = (
+				DA1432AC28BCC11E00418201 /* StoryBoard */,
+				DA1432C928BCC47F00418201 /* DiscVC.swift */,
+				DADBD6B228C2737B00E15171 /* Earbuds.swift */,
+				DA1432CB28BCC49100418201 /* ImagesArray.swift */,
+				DA1432F128BCC72A00418201 /* DiscCollectionViewCell.swift */,
+				DA1432CD28BCC4B000418201 /* EarbudsViewController.swift */,
+				DA1432CF28BCC50500418201 /* EarbudsCollectionVC.swift */,
+				DA1432D128BCC51A00418201 /* EarbudsCollectionViewCell.swift */,
+				DA1432D328BCC52D00418201 /* EarbudsImagesCollectionViewCell.swift */,
+			);
+			name = Earbuds;
+			path = "New Group/Earbuds";
+			sourceTree = "<group>";
+		};
+		DA1432A728BCC00400418201 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				DA1432B328BCC25A00418201 /* SignInViewController.swift */,
+				DA1432B528BCC26F00418201 /* ForgetPasswordViewController.swift */,
+				DA1432AF28BCC16700418201 /* StoryBoard */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		DA1432A828BCC00F00418201 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				DA1432B028BCC1FA00418201 /* AuthenticationViewController.swift */,
+				DADBD6A928C2415200E15171 /* Animation */,
+				DA1432B228BCC21200418201 /* StoryBoard */,
+				DA1432A728BCC00400418201 /* SignIn */,
+				DA1432A928BCC0A500418201 /* SignUp */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		DA1432A928BCC0A500418201 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				DA1432ED28BCC6AC00418201 /* SignUpViewController.swift */,
+				DA1432AE28BCC16100418201 /* StoryBoard */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		DA1432AA28BCC0D800418201 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				DA1432EF28BCC6DE00418201 /* CellData.swift */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		DA1432AB28BCC0DF00418201 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				DA1432E128BCC5EF00418201 /* CartCell.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		DA1432AC28BCC11E00418201 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				DA0822C828C8BF38000BD3A9 /* EarbudsCell.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		DA1432AD28BCC12300418201 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				DA0822CF28C8BFCC000BD3A9 /* HeadphonesCell.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		DA1432AE28BCC16100418201 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				DA1432E528BCC63A00418201 /* SignUpViewController.storyboard */,
+				DA0822B628C82D4E000BD3A9 /* SignUp.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		DA1432AF28BCC16700418201 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				DA1432E928BCC65700418201 /* SignInViewController.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		DA1432B228BCC21200418201 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				DA0822BD28C82DBB000BD3A9 /* Authentication.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		DADBD6A928C2415200E15171 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				DADBD6B028C246BB00E15171 /* listening-music.json */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA14328228BCBD0C00418201 /* Skullcandy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA14329728BCBD0D00418201 /* Build configuration list for PBXNativeTarget "Skullcandy" */;
+			buildPhases = (
+				37E2D327C7B2111E196B055E /* [CP] Check Pods Manifest.lock */,
+				DA14327F28BCBD0C00418201 /* Sources */,
+				DA14328028BCBD0C00418201 /* Frameworks */,
+				DA14328128BCBD0C00418201 /* Resources */,
+				D98BA45C33B5CBCDF6BFED4F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Skullcandy;
+			productName = Skullcandy;
+			productReference = DA14328328BCBD0C00418201 /* Skullcandy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA14327B28BCBD0C00418201 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					DA14328228BCBD0C00418201 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = DA14327E28BCBD0C00418201 /* Build configuration list for PBXProject "Skullcandy" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+			);
+			mainGroup = DA14327A28BCBD0C00418201;
+			productRefGroup = DA14328428BCBD0C00418201 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA14328228BCBD0C00418201 /* Skullcandy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA14328128BCBD0C00418201 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA0822BB28C82DBB000BD3A9 /* Authentication.storyboard in Resources */,
+				DA14329328BCBD0D00418201 /* LaunchScreen.storyboard in Resources */,
+				DA666C4828CD0D190084116D /* GoogleService-Info.plist in Resources */,
+				DA0822C628C8BF38000BD3A9 /* EarbudsCell.storyboard in Resources */,
+				DA0822D628C8C3EE000BD3A9 /* Localizable.strings in Resources */,
+				DA1432EA28BCC65700418201 /* SignInViewController.storyboard in Resources */,
+				DA1432E628BCC63A00418201 /* SignUpViewController.storyboard in Resources */,
+				DADBD6B128C246BB00E15171 /* listening-music.json in Resources */,
+				DA0822B428C82D4E000BD3A9 /* SignUp.storyboard in Resources */,
+				DA1432E228BCC5EF00418201 /* CartCell.storyboard in Resources */,
+				DA0822AD28C82D2A000BD3A9 /* TabBar.storyboard in Resources */,
+				DA14329028BCBD0D00418201 /* Assets.xcassets in Resources */,
+				DA14328E28BCBD0C00418201 /* Main.storyboard in Resources */,
+				DA0822CD28C8BFCC000BD3A9 /* HeadphonesCell.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37E2D327C7B2111E196B055E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Skullcandy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D98BA45C33B5CBCDF6BFED4F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Skullcandy/Pods-Skullcandy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Skullcandy/Pods-Skullcandy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Skullcandy/Pods-Skullcandy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA14327F28BCBD0C00418201 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DADBD6B328C2737B00E15171 /* Earbuds.swift in Sources */,
+				DA1432B128BCC1FA00418201 /* AuthenticationViewController.swift in Sources */,
+				DA1432D628BCC57800418201 /* HeadphonesViewController.swift in Sources */,
+				DA1432CE28BCC4B000418201 /* EarbudsViewController.swift in Sources */,
+				DA1432C228BCC3D500418201 /* ScreenThreeViewController.swift in Sources */,
+				DA1432D228BCC51A00418201 /* EarbudsCollectionViewCell.swift in Sources */,
+				DA1432BE28BCC3B600418201 /* ScreenTwoViewController.swift in Sources */,
+				DA1432CA28BCC47F00418201 /* DiscVC.swift in Sources */,
+				DA1432DA28BCC59E00418201 /* HadphonesCollectionViewCell.swift in Sources */,
+				DA1432C028BCC3C500418201 /* ScreenFourViewController.swift in Sources */,
+				DA14328B28BCBD0C00418201 /* ViewController.swift in Sources */,
+				DA14328728BCBD0C00418201 /* AppDelegate.swift in Sources */,
+				DA1432F028BCC6DE00418201 /* CellData.swift in Sources */,
+				DA1432B428BCC25A00418201 /* SignInViewController.swift in Sources */,
+				DA1432D428BCC52D00418201 /* EarbudsImagesCollectionViewCell.swift in Sources */,
+				DA1432B828BCC27E00418201 /* TabBarViewController.swift in Sources */,
+				DA1432D828BCC58B00418201 /* HeadphonesCollectionVC.swift in Sources */,
+				DA1432BC28BCC3A200418201 /* ScreenOneViewController.swift in Sources */,
+				DA1432B628BCC26F00418201 /* ForgetPasswordViewController.swift in Sources */,
+				DA1432C428BCC40100418201 /* CheckOutVC.swift in Sources */,
+				DA1432DC28BCC5AD00418201 /* HeadphonesImagesCollectionViewCell.swift in Sources */,
+				DA98D71B28BEDBB2003B2E63 /* AboutUsViewController.swift in Sources */,
+				DA1432C628BCC42000418201 /* CartData.swift in Sources */,
+				DA597E0228BE87CA00DC52F2 /* DiscTwoVC.swift in Sources */,
+				DA1432CC28BCC49100418201 /* ImagesArray.swift in Sources */,
+				DA1432C828BCC43400418201 /* CartTableViewCell.swift in Sources */,
+				DA1432BA28BCC39200418201 /* Constants.swift in Sources */,
+				DA98D72128BEEAD4003B2E63 /* HelpViewController.swift in Sources */,
+				DA1432F228BCC72A00418201 /* DiscCollectionViewCell.swift in Sources */,
+				DA1432EE28BCC6AC00418201 /* SignUpViewController.swift in Sources */,
+				DA10509228BE8A6B00695322 /* DiscTwoCollectionViewCell.swift in Sources */,
+				DA1432D028BCC50500418201 /* EarbudsCollectionVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA0822AF28C82D2A000BD3A9 /* TabBar.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA0822AE28C82D2A000BD3A9 /* Base */,
+				DA0822B128C82D2F000BD3A9 /* en */,
+				DA0822B328C82D3B000BD3A9 /* ar */,
+			);
+			name = TabBar.storyboard;
+			sourceTree = "<group>";
+		};
+		DA0822B628C82D4E000BD3A9 /* SignUp.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA0822B528C82D4E000BD3A9 /* Base */,
+				DA0822B828C82D58000BD3A9 /* en */,
+				DA0822BA28C82D8B000BD3A9 /* ar */,
+			);
+			name = SignUp.storyboard;
+			sourceTree = "<group>";
+		};
+		DA0822BD28C82DBB000BD3A9 /* Authentication.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA0822BC28C82DBB000BD3A9 /* Base */,
+				DA0822BF28C82DC7000BD3A9 /* en */,
+				DA0822C128C82DF6000BD3A9 /* ar */,
+			);
+			name = Authentication.storyboard;
+			sourceTree = "<group>";
+		};
+		DA0822C828C8BF38000BD3A9 /* EarbudsCell.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA0822C728C8BF38000BD3A9 /* Base */,
+				DA0822CA28C8BF3D000BD3A9 /* en */,
+				DA0822CC28C8BF6D000BD3A9 /* ar */,
+			);
+			name = EarbudsCell.storyboard;
+			sourceTree = "<group>";
+		};
+		DA0822CF28C8BFCC000BD3A9 /* HeadphonesCell.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA0822CE28C8BFCC000BD3A9 /* Base */,
+				DA0822D128C8C001000BD3A9 /* en */,
+				DA0822D328C8C033000BD3A9 /* ar */,
+			);
+			name = HeadphonesCell.storyboard;
+			sourceTree = "<group>";
+		};
+		DA0822D828C8C3EE000BD3A9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA0822D728C8C3EE000BD3A9 /* en */,
+				DA0822DA28C8C68D000BD3A9 /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		DA14328C28BCBD0C00418201 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA14328D28BCBD0C00418201 /* Base */,
+				DA0822C328C84443000BD3A9 /* en */,
+				DA0822C528C8444D000BD3A9 /* ar */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA14329128BCBD0D00418201 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA14329228BCBD0D00418201 /* Base */,
+				DA0822A828C82C57000BD3A9 /* ar */,
+				DA0822AC28C82CDE000BD3A9 /* en */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA14329528BCBD0D00418201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA14329628BCBD0D00418201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA14329828BCBD0D00418201 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F773576BA794F46B44CD09C4 /* Pods-Skullcandy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Skullcandy/Skullcandy.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99DHWD3679;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Skullcandy/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Skullcandy;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FABIO.Skullcandy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA14329928BCBD0D00418201 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DE25DA0CEC98945878C5C11 /* Pods-Skullcandy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Skullcandy/Skullcandy.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 99DHWD3679;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Skullcandy/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Skullcandy;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FABIO.Skullcandy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA14327E28BCBD0C00418201 /* Build configuration list for PBXProject "Skullcandy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA14329528BCBD0D00418201 /* Debug */,
+				DA14329628BCBD0D00418201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA14329728BCBD0D00418201 /* Build configuration list for PBXNativeTarget "Skullcandy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA14329828BCBD0D00418201 /* Debug */,
+				DA14329928BCBD0D00418201 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA14327B28BCBD0C00418201 /* Project object */;
+}

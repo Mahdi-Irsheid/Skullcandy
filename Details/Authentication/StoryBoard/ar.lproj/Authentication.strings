@@ -1,0 +1,42 @@
+
+/* Class = "UIButton"; configuration.title = "هل نسيت كلمة السر؟"; ObjectID = "71a-uX-xc4"; */
+"71a-uX-xc4.configuration.title" = "هل نسيت كلمة السر؟";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "71a-uX-xc4"; */
+"71a-uX-xc4.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "كلمة السر"; ObjectID = "8yD-hb-wJ8"; */
+"8yD-hb-wJ8.placeholder" = "كلمة السر";
+
+/* Class = "UIButton"; configuration.title = "أرسل"; ObjectID = "G0n-lC-VgV"; */
+"G0n-lC-VgV.configuration.title" = "أرسل";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "G0n-lC-VgV"; */
+"G0n-lC-VgV.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "دخول"; ObjectID = "GUr-yU-kfr"; */
+"GUr-yU-kfr.configuration.title" = "تسجيل الدخول";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "GUr-yU-kfr"; */
+"GUr-yU-kfr.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Email@gmail.com"; ObjectID = "OiP-Ja-1Q5"; */
+"OiP-Ja-1Q5.placeholder" = "Email@gmail.com";
+
+/* Class = "UITextField"; placeholder = "Email@gmail.com"; ObjectID = "Y3l-27-JCS"; */
+"Y3l-27-JCS.placeholder" = "Email@gmail.com";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "fYa-5d-OPo"; */
+"fYa-5d-OPo.text" = "الإيميل";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "iFJ-C0-Aid"; */
+"iFJ-C0-Aid.text" = "الإيميل";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "o1g-eU-vzi"; */
+"o1g-eU-vzi.text" = "كلمة السر";
+
+/* Class = "UIButton"; configuration.title = "Back"; ObjectID = "ugx-fi-WS7"; */
+"ugx-fi-WS7.configuration.title" = "الرجوع";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ugx-fi-WS7"; */
+"ugx-fi-WS7.normalTitle" = "Button";

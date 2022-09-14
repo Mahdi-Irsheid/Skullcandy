@@ -1,0 +1,30 @@
+
+/* Class = "UIButton"; configuration.title = "SignUp"; ObjectID = "6ce-8M-jFU"; */
+"6ce-8M-jFU.configuration.title" = "SignUp";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "6ce-8M-jFU"; */
+"6ce-8M-jFU.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "75q-uB-XTg"; */
+"75q-uB-XTg.text" = "Password";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "OVd-T4-wba"; */
+"OVd-T4-wba.text" = "Email";
+
+/* Class = "UITextField"; placeholder = "Name: Fabio"; ObjectID = "fbU-WF-8ga"; */
+"fbU-WF-8ga.placeholder" = "Name: Fabio";
+
+/* Class = "UIButton"; configuration.title = "Back"; ObjectID = "hFm-l7-o4X"; */
+"hFm-l7-o4X.configuration.title" = "Back";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "hFm-l7-o4X"; */
+"hFm-l7-o4X.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "ov9-ef-uaE"; */
+"ov9-ef-uaE.text" = "Name";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "q51-n3-yt9"; */
+"q51-n3-yt9.placeholder" = "Password";
+
+/* Class = "UITextField"; placeholder = "Email@gmail.com"; ObjectID = "yPK-9E-pxx"; */
+"yPK-9E-pxx.placeholder" = "Email@gmail.com";

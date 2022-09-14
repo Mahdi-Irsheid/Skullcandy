@@ -1,0 +1,15 @@
+
+/* Class = "UINavigationItem"; title = "Earbuds"; ObjectID = "D9g-Cb-ZMR"; */
+"D9g-Cb-ZMR.title" = "Earbuds";
+
+/* Class = "UILabel"; text = "Price:"; ObjectID = "JLI-EX-u5Q"; */
+"JLI-EX-u5Q.text" = "Price:";
+
+/* Class = "UIButton"; configuration.title = "Show details"; ObjectID = "WPF-wI-JK9"; */
+"WPF-wI-JK9.configuration.title" = "Show details";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "WPF-wI-JK9"; */
+"WPF-wI-JK9.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Skullcandy Crusher ANC Wireless"; ObjectID = "kfd-mH-yeg"; */
+"kfd-mH-yeg.text" = "Skullcandy Crusher ANC Wireless";

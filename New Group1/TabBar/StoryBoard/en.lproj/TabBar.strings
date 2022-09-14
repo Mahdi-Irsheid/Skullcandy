@@ -1,0 +1,261 @@
+
+/* Class = "UIButton"; configuration.title = "See All..."; ObjectID = "2Pf-HX-9TK"; */
+"2Pf-HX-9TK.configuration.title" = "See All...";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "2Pf-HX-9TK"; */
+"2Pf-HX-9TK.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "price"; ObjectID = "2ty-v6-KrN"; */
+"2ty-v6-KrN.text" = "price";
+
+/* Class = "UIButton"; configuration.title = "Here"; ObjectID = "3cr-23-OTs"; */
+"3cr-23-OTs.configuration.title" = "Here";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "3cr-23-OTs"; */
+"3cr-23-OTs.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "See All..."; ObjectID = "3xV-CX-EvU"; */
+"3xV-CX-EvU.configuration.title" = "See All...";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "3xV-CX-EvU"; */
+"3xV-CX-EvU.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "name"; ObjectID = "4yt-FF-gDL"; */
+"4yt-FF-gDL.text" = "name";
+
+/* Class = "UITabBarItem"; title = "Shop"; ObjectID = "5mh-zz-IMt"; */
+"5mh-zz-IMt.title" = "Shop";
+
+/* Class = "UICommand"; title = "Item 1"; ObjectID = "6h2-Bb-7No"; */
+"6h2-Bb-7No.title" = "Item 1";
+
+/* Class = "UILabel"; text = "Wireless Earbuds"; ObjectID = "7EH-ck-9WX"; */
+"7EH-ck-9WX.text" = "Wireless Earbuds";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "9D1-kb-WSL"; */
+"9D1-kb-WSL.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Arabic"; ObjectID = "9X9-aU-DqD"; */
+"9X9-aU-DqD.configuration.title" = "Arabic";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "9X9-aU-DqD"; */
+"9X9-aU-DqD.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Push active true wireless earbuds"; ObjectID = "9tf-S0-upI"; */
+"9tf-S0-upI.text" = "Push active true wireless earbuds";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "9yX-Pw-OaO"; */
+"9yX-Pw-OaO.text" = "1";
+
+/* Class = "UILabel"; text = "price"; ObjectID = "A5H-ZV-Ybt"; */
+"A5H-ZV-Ybt.text" = "price";
+
+/* Class = "UITabBarItem"; title = "Favourite"; ObjectID = "APm-iV-aiG"; */
+"APm-iV-aiG.title" = "Favourite";
+
+/* Class = "UIButton"; configuration.title = "SignOut"; ObjectID = "BoF-SU-SGB"; */
+"BoF-SU-SGB.configuration.title" = "SignOut";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "BoF-SU-SGB"; */
+"BoF-SU-SGB.normalTitle" = "Button";
+
+/* Class = "UIViewController"; title = "Settings"; ObjectID = "BpM-Nd-ej8"; */
+"BpM-Nd-ej8.title" = "Settings";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "CFg-R8-8Pq"; */
+"CFg-R8-8Pq.text" = "Description";
+
+/* Class = "UILabel"; text = "About Us"; ObjectID = "CdF-CT-AX7"; */
+"CdF-CT-AX7.text" = "About Us";
+
+/* Class = "UIButton"; configuration.title = "See All..."; ObjectID = "Eiy-69-YFz"; */
+"Eiy-69-YFz.configuration.title" = "See All...";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Eiy-69-YFz"; */
+"Eiy-69-YFz.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "FrJ-vY-seN"; */
+"FrJ-vY-seN.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Wireless Headphones"; ObjectID = "G24-t4-keG"; */
+"G24-t4-keG.text" = "Wireless Headphones";
+
+/* Class = "UIButton"; configuration.title = "About"; ObjectID = "Glx-Vk-Q5m"; */
+"Glx-Vk-Q5m.configuration.title" = "About";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Glx-Vk-Q5m"; */
+"Glx-Vk-Q5m.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Status"; ObjectID = "J5C-nN-8MQ"; */
+"J5C-nN-8MQ.configuration.title" = "Status";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "J5C-nN-8MQ"; */
+"J5C-nN-8MQ.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Follow Us"; ObjectID = "JXP-xg-vuM"; */
+"JXP-xg-vuM.text" = "Follow Us";
+
+/* Class = "UILabel"; text = "Crusher EVO sensory bass "; ObjectID = "LVR-77-LBZ"; */
+"LVR-77-LBZ.text" = "Crusher EVO sensory bass ";
+
+/* Class = "UILabel"; text = "© 2022 Skullcandy.com All Rights Reserved"; ObjectID = "NZs-zR-1EA"; */
+"NZs-zR-1EA.text" = "© 2022 Skullcandy.com All Rights Reserved";
+
+/* Class = "UIMenu"; title = "Sub Menu"; ObjectID = "Nsm-dZ-Kg0"; */
+"Nsm-dZ-Kg0.title" = "Sub Menu";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "OPg-DI-9Wc"; */
+"OPg-DI-9Wc.text" = "1";
+
+/* Class = "UINavigationItem"; title = "Cart"; ObjectID = "QKc-HL-lew"; */
+"QKc-HL-lew.title" = "Cart";
+
+/* Class = "UILabel"; text = "Total price:"; ObjectID = "QcZ-UW-3pg"; */
+"QcZ-UW-3pg.text" = "Total price:";
+
+/* Class = "UIButton"; configuration.title = "Warranty"; ObjectID = "S5g-nc-1Ot"; */
+"S5g-nc-1Ot.configuration.title" = "Warranty";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "S5g-nc-1Ot"; */
+"S5g-nc-1Ot.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Follow Us"; ObjectID = "Spk-nI-jnR"; */
+"Spk-nI-jnR.configuration.title" = "Follow Us";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Spk-nI-jnR"; */
+"Spk-nI-jnR.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "App Information"; ObjectID = "TLP-aH-a0t"; */
+"TLP-aH-a0t.text" = "App Information";
+
+/* Class = "UIButton"; normalTitle = "ADD TO CART"; ObjectID = "UCD-Sp-U0r"; */
+"UCD-Sp-U0r.normalTitle" = "ADD TO CART";
+
+/* Class = "UILabel"; text = "Notifications"; ObjectID = "UsO-Ip-b1T"; */
+"UsO-Ip-b1T.text" = "Notifications";
+
+/* Class = "UILabel"; text = "Number of items"; ObjectID = "VYT-rs-3i0"; */
+"VYT-rs-3i0.text" = "Number of items";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Y8w-jQ-DEW"; */
+"Y8w-jQ-DEW.normalTitle" = "Button";
+
+/* Class = "UINavigationItem"; title = "Favorites"; ObjectID = "Z5S-Wz-GaO"; */
+"Z5S-Wz-GaO.title" = "Favorites";
+
+/* Class = "UIButton"; configuration.title = "Here"; ObjectID = "Z9c-wN-pWR"; */
+"Z9c-wN-pWR.configuration.title" = "Here";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Z9c-wN-pWR"; */
+"Z9c-wN-pWR.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "100$"; ObjectID = "a5W-sd-kpY"; */
+"a5W-sd-kpY.text" = "";
+
+/* Class = "UILabel"; text = "Welcome to next-level listening.\nMeet Skull-iQ Smart Feature Technology. Hands-free Voice Control gives you absolute authority over your audio using only your voice — and that's just the beginning.\n\nEarbuds that listen to YOU.\nVoice Control means you never need to take off your gloves or let go of the handlebar. Play, pause, adjust volume, take calls, skip tracks, launch Spotify and activate Stay-Aware Mode, all without ever touching your device..\n\nA full suite of sweet features.\nThere's even more to Skull-iQ than Voice Control. Share audio with a friend in real time, activate your assistant, customize your earbud controls, trigger your phone camera to take the perfect selfie and more.\n\nBuds so smart they learn.\nThe days of buying new earbuds to get the latest features are over. Skull-iQ gives us the ability to push new features and updates to your earbuds via the Skullcandy App as they become available.\n\nHours of power.\nPush Active delivers a whopping 44 hours of listening time between the charging case and buds. Plus, your earbuds tell you how much battery is left every time you remove them from the case.\n"; ObjectID = "cOC-qb-gaD"; */
+"cOC-qb-gaD.text" = "Welcome to next-level listening.\nMeet Skull-iQ Smart Feature Technology. Hands-free Voice Control gives you absolute authority over your audio using only your voice — and that's just the beginning.\n\nEarbuds that listen to YOU.\nVoice Control means you never need to take off your gloves or let go of the handlebar. Play, pause, adjust volume, take calls, skip tracks, launch Spotify and activate Stay-Aware Mode, all without ever touching your device..\n\nA full suite of sweet features.\nThere's even more to Skull-iQ than Voice Control. Share audio with a friend in real time, activate your assistant, customize your earbud controls, trigger your phone camera to take the perfect selfie and more.\n\nBuds so smart they learn.\nThe days of buying new earbuds to get the latest features are over. Skull-iQ gives us the ability to push new features and updates to your earbuds via the Skullcandy App as they become available.\n\nHours of power.\nPush Active delivers a whopping 44 hours of listening time between the charging case and buds. Plus, your earbuds tell you how much battery is left every time you remove them from the case.\n";
+
+/* Class = "UILabel"; text = "Wired Earbuds"; ObjectID = "cQO-uu-xpr"; */
+"cQO-uu-xpr.text" = "Wired Earbuds";
+
+/* Class = "UILabel"; text = "Name vnv vvshf fkjhf skf kjhf dksfh skdjh skg"; ObjectID = "d61-ho-EAx"; */
+//"d61-ho-EAx.text" = "...";
+
+/* Class = "UIButton"; configuration.title = "See All..."; ObjectID = "daR-m7-dE1"; */
+"daR-m7-dE1.configuration.title" = "See All...";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "daR-m7-dE1"; */
+"daR-m7-dE1.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "ADD TO CART"; ObjectID = "duU-eP-QBK"; */
+"duU-eP-QBK.normalTitle" = "ADD TO CART";
+
+/* Class = "UILabel"; text = "Contact Us"; ObjectID = "dvN-mZ-5pe"; */
+"dvN-mZ-5pe.text" = "Contact Us";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "e9V-JW-7G5"; */
+"e9V-JW-7G5.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Order Status"; ObjectID = "fhk-Hd-1kh"; */
+"fhk-Hd-1kh.text" = "Order Status";
+
+/* Class = "UICommand"; title = "Item 2"; ObjectID = "gKT-zt-qUb"; */
+"gKT-zt-qUb.title" = "Item 2";
+
+/* Class = "UILabel"; text = "100$"; ObjectID = "iGt-Ub-rdJ"; */
+//"iGt-Ub-rdJ.text" = "...";
+
+/* Class = "UILabel"; text = "Help        "; ObjectID = "iXL-cK-cl1"; */
+"iXL-cK-cl1.text" = "Help        ";
+
+/* Class = "UILabel"; text = "About"; ObjectID = "j17-jh-j2e"; */
+"j17-jh-j2e.text" = "About";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "jRr-0E-gEv"; */
+"jRr-0E-gEv.text" = "Name";
+
+/* Class = "UILabel"; text = "Help Center"; ObjectID = "jXN-XO-dVh"; */
+"jXN-XO-dVh.text" = "Help Center";
+
+/* Class = "UITabBarItem"; title = "Settings"; ObjectID = "k5f-C2-ZVp"; */
+"k5f-C2-ZVp.title" = "Settings";
+
+/* Class = "UILabel"; text = "Name vnv vvshf fkjhf skf kjhf dksfh skdjh skg"; ObjectID = "khv-hi-zXQ"; */
+//"khv-hi-zXQ.text" = "...";
+
+/* Class = "UINavigationItem"; title = "Shop"; ObjectID = "lCD-z5-rQM"; */
+"lCD-z5-rQM.title" = "Shop";
+
+/* Class = "UILabel"; text = "YOU'VE NEVER HEARD AUDIO LIKE THIS.\nGet ready to experience the patented, skull-thumping power of Crusher Bass — now combined with the ultimate audio customization of Personal Sound by our partners at Audiodo™. You've never heard your music and movies like this before. Because there's never been anything like this before.\n\nCRUSHER BASS: NOTHING COMPARES.\nSkullcandy Crusher is the original, one-and-only immersive sensory bass experience. Turn the slider down for more mellow bass. Turn it up to really rattle your bones. Plus, Crusher Evo features audio quality improvements over original Crusher so you'll experience an even broader range of deeper, richer bass.\n\nTUNE FOR YOUR HEARING WITH THE APP.\nNo one's hearing is the same. That's why Crusher Evo features Personal Sound. By taking a quick, real-time test on the Skullcandy App, you'll create a Personal Sound Profile that is stored on your headphones to optimize sound levels just for you.\nSOUND OPTIMIZED FOR YOU.\nAudiodo™ technology in the Skullcandy App analyzes the hearing in your left and right ear, then automatically adjusts the audio to optimal levels for your specific hearing.\nA BIG, FAT 40 HOURS OF BATTERY LIFE.\n\nYou don't have time to plug in your headphones every time you turn around. That's why Crusher Evo is engineered with a full 40 hours of battery life. Plus, whenever you get low, the Rapid Charge feature gives you an extra 4 hours of listening time from just a quick, 10-minute charge.\n"; ObjectID = "mpG-rO-1Zf"; */
+"mpG-rO-1Zf.text" = "YOU'VE NEVER HEARD AUDIO LIKE THIS.\nGet ready to experience the patented, skull-thumping power of Crusher Bass — now combined with the ultimate audio customization of Personal Sound by our partners at Audiodo™. You've never heard your music and movies like this before. Because there's never been anything like this before.\n\nCRUSHER BASS: NOTHING COMPARES.\nSkullcandy Crusher is the original, one-and-only immersive sensory bass experience. Turn the slider down for more mellow bass. Turn it up to really rattle your bones. Plus, Crusher Evo features audio quality improvements over original Crusher so you'll experience an even broader range of deeper, richer bass.\n\nTUNE FOR YOUR HEARING WITH THE APP.\nNo one's hearing is the same. That's why Crusher Evo features Personal Sound. By taking a quick, real-time test on the Skullcandy App, you'll create a Personal Sound Profile that is stored on your headphones to optimize sound levels just for you.\nSOUND OPTIMIZED FOR YOU.\nAudiodo™ technology in the Skullcandy App analyzes the hearing in your left and right ear, then automatically adjusts the audio to optimal levels for your specific hearing.\nA BIG, FAT 40 HOURS OF BATTERY LIFE.\n\nYou don't have time to plug in your headphones every time you turn around. That's why Crusher Evo is engineered with a full 40 hours of battery life. Plus, whenever you get low, the Rapid Charge feature gives you an extra 4 hours of listening time from just a quick, 10-minute charge.\n";
+
+/* Class = "UILabel"; text = "name"; ObjectID = "mzx-qo-6kK"; */
+"mzx-qo-6kK.text" = "name";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "noX-YU-2aX"; */
+"noX-YU-2aX.text" = "Name";
+
+/* Class = "UILabel"; text = "Warranty"; ObjectID = "p8q-E9-6j8"; */
+"p8q-E9-6j8.text" = "Warranty";
+
+/* Class = "UILabel"; text = "© 2022 Skullcandy.com All Rights Reserved"; ObjectID = "qTJ-A1-Ary"; */
+"qTJ-A1-Ary.text" = "© 2022 Skullcandy.com All Rights Reserved";
+
+/* Class = "UILabel"; text = "Product:"; ObjectID = "rfK-I5-S0W"; */
+"rfK-I5-S0W.text" = "Product:";
+
+/* Class = "UILabel"; text = "Language"; ObjectID = "rmE-gw-VwI"; */
+"rmE-gw-VwI.text" = "Language";
+
+/* Class = "UILabel"; text = "Number of items"; ObjectID = "rnw-Fv-oYJ"; */
+"rnw-Fv-oYJ.text" = "Number of items";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "s81-Fl-GZy"; */
+"s81-Fl-GZy.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Comming Soon!"; ObjectID = "sH1-fq-i7k"; */
+"sH1-fq-i7k.text" = "Comming Soon!";
+
+/* Class = "UIButton"; configuration.title = "Check Out"; ObjectID = "sdv-ZB-yYR"; */
+"sdv-ZB-yYR.configuration.title" = "Check Out";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "sdv-ZB-yYR"; */
+"sdv-ZB-yYR.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Wired heaphones"; ObjectID = "tCv-EQ-Cq7"; */
+"tCv-EQ-Cq7.text" = "Wired heaphones";
+
+/* Class = "UIButton"; configuration.title = "Help"; ObjectID = "u2c-vO-g7V"; */
+"u2c-vO-g7V.configuration.title" = "Help";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "u2c-vO-g7V"; */
+"u2c-vO-g7V.normalTitle" = "Button";
+
+/* Class = "UITabBarItem"; title = "Cart"; ObjectID = "v99-0n-qmp"; */
+"v99-0n-qmp.title" = "Cart";
+
+/* Class = "UILabel"; text = "Description:"; ObjectID = "vZS-2J-U6u"; */
+"vZS-2J-U6u.text" = "Description:";
+
+/* Class = "UINavigationItem"; title = "Settings"; ObjectID = "wxD-Iq-lt6"; */
+"wxD-Iq-lt6.title" = "Settings";

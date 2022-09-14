@@ -1,0 +1,14 @@
+/* Class = "UILabel"; text = "Skullcandy"; ObjectID = "3Zl-Cg-l6w"; */
+"3Zl-Cg-l6w.text" = "Skullcandy";
+
+/* Class = "UIButton"; configuration.title = "Sign Up"; ObjectID = "Gwq-3L-DKF"; */
+"Gwq-3L-DKF.configuration.title" = "تسجيل إشتراك";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Gwq-3L-DKF"; */
+"Gwq-3L-DKF.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Sign In"; ObjectID = "PZD-MB-iPy"; */
+"PZD-MB-iPy.configuration.title" = "تسجيل دخول";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "PZD-MB-iPy"; */
+"PZD-MB-iPy.normalTitle" = "Button";

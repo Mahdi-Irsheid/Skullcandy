@@ -1,0 +1,25 @@
+"Warrning" = "تحذير!";
+"Cancle" = "إلغاء";
+"Change" = "تغيير";
+"The application will shutt down after 5 seconds, please open the application again." = "سيتم اغلاق التطبيق بعد 5 ثواني، يرجى فتح التطبيق بعد الإغلاق.";
+"Change to English" = "Change to English";
+"التغيير إلى اللغة العربية" = "التغيير إلى اللغة العربية";
+"Comming Soon" = "قريباً";
+"There's something wrong, or there is no time to do this feature right now, this will be a future update soon." = "هنالك خطأ، أو ربما لا يوجد وقت لإضافة هذه الميزة الآن، سيكون هذا تحديث في المستقبل.";
+
+"Error" = "خطأ";
+"Please fill in all fields." = "رجاءً إملأ كل الفراغات.";
+"There's something wrong with the fields, try to fill in the fields correctly." = "هنالك خطأ في الفراغات، حاول تعبئة الفراغات بالشكل الصحيح.";
+
+//Forget
+"There was an error in email field, check your email spilling, or this email does'nt exist." = "هنالك خطأ في صندوق البريد، تأكّد من البريد الخاص بك، أو هذا البريد غير موجود.";
+
+//signup
+"Error creating user!" = "خطأ في إنشاء مستخدم!";
+"Error saving user data." = "خطأ لي حفظ معلومات المستخدم!";
+
+//EarbudsCollectionVC
+"Document successfully written!" = "تم حفظ الملف بنجاح!";
+"Success" = "نجاح!";
+"This item added to your cart successfully." = "تم إضافة هذه البضاعة على السلة بنجاح.";
+"lable_text" = "اهلا بك في تطبيق المهدي";

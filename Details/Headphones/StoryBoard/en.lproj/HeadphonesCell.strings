@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Price:"; ObjectID = "2iO-MF-ARo"; */
+"2iO-MF-ARo.text" = "Price:";
+
+/* Class = "UILabel"; text = "Skullcandy Crusher ANC Wireless"; ObjectID = "Ikr-ar-qxf"; */
+"Ikr-ar-qxf.text" = "Skullcandy Crusher ANC Wireless";
+
+/* Class = "UIButton"; configuration.title = "Show"; ObjectID = "PNd-9j-tGi"; */
+"PNd-9j-tGi.configuration.title" = "Show";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "PNd-9j-tGi"; */
+"PNd-9j-tGi.normalTitle" = "Button";
+
+/* Class = "UINavigationItem"; title = "Headphones"; ObjectID = "sWD-Uo-DRD"; */
+"sWD-Uo-DRD.title" = "Headphones";

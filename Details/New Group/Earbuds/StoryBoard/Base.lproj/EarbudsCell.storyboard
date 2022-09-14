@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Enh-1f-coQ">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Earbuds-->
+        <scene sceneID="mUJ-An-TSG">
+            <objects>
+                <viewController id="Enh-1f-coQ" customClass="EarbudsViewController" customModule="Skullcandy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2x9-NN-CBh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="c3K-bp-orc">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Z2b-vE-dJl">
+                                    <size key="itemSize" width="300" height="420"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="EarbudsVC" reuseIdentifier="EarbudsCell" id="UwP-SQ-dzi" customClass="EarbudsCollectionViewCell" customModule="Skullcandy" customModuleProvider="target">
+                                        <rect key="frame" x="57" y="0.0" width="300" height="430"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="GuX-Ca-D2q">
+                                            <rect key="frame" x="0.0" y="0.0" width="300" height="430"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="#e12" translatesAutoresizingMaskIntoConstraints="NO" id="hRX-dd-DlK">
+                                                    <rect key="frame" x="5" y="5" width="290" height="325"/>
+                                                </imageView>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="1Vj-B6-eE1">
+                                                    <rect key="frame" x="0.0" y="330" width="300" height="100"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Skullcandy Crusher ANC Wireless" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="none" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kfd-mH-yeg">
+                                                            <rect key="frame" x="0.0" y="0.0" width="300" height="66.5"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <stackView opaque="NO" contentMode="scaleAspectFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="VgR-3u-d3N">
+                                                            <rect key="frame" x="0.0" y="66.5" width="300" height="33.5"/>
+                                                            <subviews>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JLI-EX-u5Q">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="150" height="33.5"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                                    <nil key="textColor"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WPF-wI-JK9">
+                                                                    <rect key="frame" x="150" y="0.0" width="150" height="33.5"/>
+                                                                    <color key="tintColor" name="AccentColor"/>
+                                                                    <state key="normal" title="Button"/>
+                                                                    <buttonConfiguration key="configuration" style="plain" title="Show details">
+                                                                        <fontDescription key="titleFontDescription" type="system" pointSize="16"/>
+                                                                        <color key="baseForegroundColor" name="Dark"/>
+                                                                    </buttonConfiguration>
+                                                                    <connections>
+                                                                        <segue destination="Ata-qT-Zau" kind="show" id="LFa-F4-3LA"/>
+                                                                    </connections>
+                                                                </button>
+                                                            </subviews>
+                                                        </stackView>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="1Vj-B6-eE1" secondAttribute="bottom" id="0mU-in-LT7"/>
+                                                <constraint firstItem="hRX-dd-DlK" firstAttribute="leading" secondItem="GuX-Ca-D2q" secondAttribute="leading" constant="5" id="d4D-lK-uTh"/>
+                                                <constraint firstItem="1Vj-B6-eE1" firstAttribute="top" secondItem="hRX-dd-DlK" secondAttribute="bottom" id="jEm-AJ-2vf"/>
+                                                <constraint firstItem="hRX-dd-DlK" firstAttribute="top" secondItem="GuX-Ca-D2q" secondAttribute="top" constant="5" id="mRT-u7-EwU"/>
+                                                <constraint firstAttribute="trailing" secondItem="1Vj-B6-eE1" secondAttribute="trailing" id="nY7-MW-C86"/>
+                                                <constraint firstItem="1Vj-B6-eE1" firstAttribute="leading" secondItem="GuX-Ca-D2q" secondAttribute="leading" id="sKy-Qe-KCx"/>
+                                                <constraint firstAttribute="bottom" secondItem="hRX-dd-DlK" secondAttribute="bottom" constant="100" id="slQ-wq-5g3"/>
+                                                <constraint firstAttribute="trailing" secondItem="hRX-dd-DlK" secondAttribute="trailing" constant="5" id="x5f-rw-ICe"/>
+                                            </constraints>
+                                        </collectionViewCellContentView>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <size key="customSize" width="300" height="430"/>
+                                        <connections>
+                                            <outlet property="Name" destination="kfd-mH-yeg" id="jSU-k7-X2a"/>
+                                            <outlet property="NameCell" destination="kfd-mH-yeg" id="zai-kG-HaA"/>
+                                            <outlet property="Price" destination="JLI-EX-u5Q" id="WVu-Bw-eSX"/>
+                                            <outlet property="PriceCell" destination="JLI-EX-u5Q" id="bYV-BA-6wS"/>
+                                            <outlet property="Show" destination="WPF-wI-JK9" id="ecI-3I-Sp2"/>
+                                            <outlet property="earbudsImageView" destination="hRX-dd-DlK" id="b3S-AJ-AX1"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="TUw-WH-vB0"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="TUw-WH-vB0" firstAttribute="trailing" secondItem="c3K-bp-orc" secondAttribute="trailing" id="1nG-9u-CAv"/>
+                            <constraint firstItem="c3K-bp-orc" firstAttribute="leading" secondItem="TUw-WH-vB0" secondAttribute="leading" id="Bku-0w-3n2"/>
+                            <constraint firstItem="TUw-WH-vB0" firstAttribute="bottom" secondItem="c3K-bp-orc" secondAttribute="bottom" id="S9l-Iw-Zm9"/>
+                            <constraint firstItem="c3K-bp-orc" firstAttribute="top" secondItem="TUw-WH-vB0" secondAttribute="top" id="rNi-7U-eEx"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Earbuds" id="D9g-Cb-ZMR"/>
+                    <connections>
+                        <outlet property="EarbudsCollectionVC" destination="c3K-bp-orc" id="p5C-am-h9w"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nlO-wq-0nk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2033" y="-1791"/>
+        </scene>
+        <!--EarbudsVC-->
+        <scene sceneID="nIO-HW-I66">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="EarbudsVC" storyboardName="TabBar" referencedIdentifier="EarbudsVC" id="5VA-CB-HG3" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="dTB-IT-6fr"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cd3-T5-WxV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2743" y="-1875"/>
+        </scene>
+        <!--discVC-->
+        <scene sceneID="eY8-1I-yJG">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="discVC" storyboardName="TabBar" referencedIdentifier="discVC" id="Ata-qT-Zau" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="AYD-Ye-rZV"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kHF-sg-l86" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2742" y="-1791"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="#e12" width="1276" height="1198"/>
+        <namedColor name="AccentColor">
+            <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Dark">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

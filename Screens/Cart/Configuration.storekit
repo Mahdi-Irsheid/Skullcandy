@@ -1,0 +1,38 @@
+{
+  "identifier" : "461E36E7",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "119",
+      "familyShareable" : false,
+      "internalID" : "2AC78596",
+      "localizations" : [
+        {
+          "description" : "One click away for checking out this product!",
+          "displayName" : "Skullcandy product",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "One click away for checking out this product!",
+          "displayName" : "Skullcandy product",
+          "locale" : "ar"
+        }
+      ],
+      "productID" : "FABIO.Skullcandy.Gems",
+      "referenceName" : "Gems",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 1,
+    "minor" : 2
+  }
+}

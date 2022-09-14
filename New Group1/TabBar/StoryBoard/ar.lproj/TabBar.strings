@@ -1,0 +1,260 @@
+/* Class = "UIButton"; configuration.title = "See All..."; ObjectID = "2Pf-HX-9TK"; */
+"2Pf-HX-9TK.configuration.title" = "رؤية المزيد…";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "2Pf-HX-9TK"; */
+"2Pf-HX-9TK.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "price"; ObjectID = "2ty-v6-KrN"; */
+"2ty-v6-KrN.text" = "السعر";
+
+/* Class = "UIButton"; configuration.title = "Here"; ObjectID = "3cr-23-OTs"; */
+"3cr-23-OTs.configuration.title" = "انقر هنا";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "3cr-23-OTs"; */
+"3cr-23-OTs.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "رؤية المزيد…"; ObjectID = "3xV-CX-EvU"; */
+"3xV-CX-EvU.configuration.title" = "رؤية المزيد…";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "3xV-CX-EvU"; */
+"3xV-CX-EvU.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "name"; ObjectID = "4yt-FF-gDL"; */
+"4yt-FF-gDL.text" = "الإسم";
+
+/* Class = "UITabBarItem"; title = "Shop"; ObjectID = "5mh-zz-IMt"; */
+"5mh-zz-IMt.title" = "تسوق";
+
+/* Class = "UICommand"; title = "Item 1"; ObjectID = "6h2-Bb-7No"; */
+"6h2-Bb-7No.title" = "Item 1";
+
+/* Class = "UILabel"; text = "Wireless Earbuds"; ObjectID = "7EH-ck-9WX"; */
+"7EH-ck-9WX.text" = "سماعات أذن لا سلكية";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "9D1-kb-WSL"; */
+"9D1-kb-WSL.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Arabic"; ObjectID = "9X9-aU-DqD"; */
+"9X9-aU-DqD.configuration.title" = "Arabic";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "9X9-aU-DqD"; */
+"9X9-aU-DqD.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Push active true wireless earbuds"; ObjectID = "9tf-S0-upI"; */
+"9tf-S0-upI.text" = "Push active true wireless earbuds";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "9yX-Pw-OaO"; */
+"9yX-Pw-OaO.text" = "1";
+
+/* Class = "UILabel"; text = "price"; ObjectID = "A5H-ZV-Ybt"; */
+"A5H-ZV-Ybt.text" = "السعر";
+
+/* Class = "UITabBarItem"; title = "Favourite"; ObjectID = "APm-iV-aiG"; */
+"APm-iV-aiG.title" = "المفضلة";
+
+/* Class = "UIButton"; configuration.title = "SignOut"; ObjectID = "BoF-SU-SGB"; */
+"BoF-SU-SGB.configuration.title" = "تسجيل الخروج";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "BoF-SU-SGB"; */
+"BoF-SU-SGB.normalTitle" = "Button";
+
+/* Class = "UIViewController"; title = "Settings"; ObjectID = "BpM-Nd-ej8"; */
+"BpM-Nd-ej8.title" = "الإعدادات";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "CFg-R8-8Pq"; */
+"CFg-R8-8Pq.text" = "الوصف";
+
+/* Class = "UILabel"; text = "About Us"; ObjectID = "CdF-CT-AX7"; */
+"CdF-CT-AX7.text" = "نحن";
+
+/* Class = "UIButton"; configuration.title = "See All..."; ObjectID = "Eiy-69-YFz"; */
+"Eiy-69-YFz.configuration.title" = "رؤية المزيد…";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Eiy-69-YFz"; */
+"Eiy-69-YFz.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "FrJ-vY-seN"; */
+"FrJ-vY-seN.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Wireless Headphones"; ObjectID = "G24-t4-keG"; */
+"G24-t4-keG.text" = "سماعات الرأس لا سلكية";
+
+/* Class = "UIButton"; configuration.title = "About"; ObjectID = "Glx-Vk-Q5m"; */
+"Glx-Vk-Q5m.configuration.title" = "انقر هنا";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Glx-Vk-Q5m"; */
+"Glx-Vk-Q5m.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Status"; ObjectID = "J5C-nN-8MQ"; */
+"J5C-nN-8MQ.configuration.title" = "انقر هنا";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "J5C-nN-8MQ"; */
+"J5C-nN-8MQ.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Follow Us"; ObjectID = "JXP-xg-vuM"; */
+"JXP-xg-vuM.text" = "تابعنا";
+
+/* Class = "UILabel"; text = "Crusher EVO sensory bass "; ObjectID = "LVR-77-LBZ"; */
+"LVR-77-LBZ.text" = "Crusher EVO sensory bass ";
+
+/* Class = "UILabel"; text = "© 2022 Skullcandy.com All Rights Reserved"; ObjectID = "NZs-zR-1EA"; */
+"NZs-zR-1EA.text" = "© 2022 Skullcandy.com All Rights Reserved";
+
+/* Class = "UIMenu"; title = "Sub Menu"; ObjectID = "Nsm-dZ-Kg0"; */
+"Nsm-dZ-Kg0.title" = "Sub Menu";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "OPg-DI-9Wc"; */
+"OPg-DI-9Wc.text" = "1";
+
+/* Class = "UINavigationItem"; title = "Cart"; ObjectID = "QKc-HL-lew"; */
+"QKc-HL-lew.title" = "السلّة";
+
+/* Class = "UILabel"; text = "Total price:"; ObjectID = "QcZ-UW-3pg"; */
+"QcZ-UW-3pg.text" = "السعر النهائي:";
+
+/* Class = "UIButton"; configuration.title = "Warranty"; ObjectID = "S5g-nc-1Ot"; */
+"S5g-nc-1Ot.configuration.title" = "انقر هنا";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "S5g-nc-1Ot"; */
+"S5g-nc-1Ot.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Follow Us"; ObjectID = "Spk-nI-jnR"; */
+"Spk-nI-jnR.configuration.title" = "انقر هنا";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Spk-nI-jnR"; */
+"Spk-nI-jnR.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "App Information"; ObjectID = "TLP-aH-a0t"; */
+"TLP-aH-a0t.text" = "معلومات التطبيق";
+
+/* Class = "UIButton"; normalTitle = "ADD TO CART"; ObjectID = "UCD-Sp-U0r"; */
+"UCD-Sp-U0r.normalTitle" = "أضف الى السلّة";
+
+/* Class = "UILabel"; text = "Notifications"; ObjectID = "UsO-Ip-b1T"; */
+"UsO-Ip-b1T.text" = "الإشعارات";
+
+/* Class = "UILabel"; text = "Number of items"; ObjectID = "VYT-rs-3i0"; */
+"VYT-rs-3i0.text" = "عدد القطع";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Y8w-jQ-DEW"; */
+"Y8w-jQ-DEW.normalTitle" = "Button";
+
+/* Class = "UINavigationItem"; title = "Favorites"; ObjectID = "Z5S-Wz-GaO"; */
+"Z5S-Wz-GaO.title" = "المفضّلة";
+
+/* Class = "UIButton"; configuration.title = "Here"; ObjectID = "Z9c-wN-pWR"; */
+"Z9c-wN-pWR.configuration.title" = "انقر هنا";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Z9c-wN-pWR"; */
+"Z9c-wN-pWR.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "100$"; ObjectID = "a5W-sd-kpY"; */
+//"a5W-sd-kpY.text" = "...";
+
+/* Class = "UILabel"; text = "\n"; ObjectID = "cOC-qb-gaD"; */
+"cOC-qb-gaD.text" = "مرحبًا بكم في المستوى التالي من الاستماع.  تعرف على Skull-iQ Smart Feature Technology.  يمنحك التحكم الصوتي بدون استخدام اليدين سلطة مطلقة على الصوت باستخدام صوتك فقط - وهذه هي البداية فقط.  سماعات الأذن التي تستمع إليك.  التحكم الصوتي يعني أنك لن تحتاج أبدًا إلى خلع القفازات أو ترك المقود.  يمكنك التشغيل والإيقاف المؤقت وضبط مستوى الصوت واستقبال المكالمات وتخطي المسارات وتشغيل Spotify وتنشيط وضع Stay-Aware ، كل ذلك دون لمس جهازك.  مجموعة كاملة من الميزات الرائعة.  هناك ما هو أكثر في Skull-iQ من التحكم الصوتي.  شارك الصوت مع صديق في الوقت الفعلي ، ونشط مساعدك ، وخصص عناصر التحكم في سماعة الأذن ، وشغل كاميرا هاتفك لالتقاط صورة سيلفي مثالية وغير ذلك الكثير.  البراعم ذكية جدًا لدرجة أنهم يتعلمون.  لقد ولت أيام شراء سماعات أذن جديدة للحصول على أحدث الميزات.  يمنحنا Skull-iQ القدرة على دفع ميزات وتحديثات جديدة لسماعات الأذن عبر تطبيق Skullcandy عندما تصبح متاحة.  ساعات من القوة.  يوفر Push Active مدة استماع هائلة تصل إلى 44 ساعة بين علبة الشحن والسماعات.  بالإضافة إلى ذلك ، تخبرك سماعات الأذن الخاصة بك بكمية البطارية المتبقية في كل مرة تقوم فيها بإزالتها من العلبة.";
+
+/* Class = "UILabel"; text = "Wired Earbuds"; ObjectID = "cQO-uu-xpr"; */
+"cQO-uu-xpr.text" = "سماعات أذن سلكية";
+
+/* Class = "UILabel"; text = "Name vnv vvshf fkjhf skf kjhf dksfh skdjh skg"; ObjectID = "d61-ho-EAx"; */
+"d61-ho-EAx.text" = "الاسم…";
+
+/* Class = "UIButton"; configuration.title = "See All..."; ObjectID = "daR-m7-dE1"; */
+"daR-m7-dE1.configuration.title" = "رؤية المزيد…";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "daR-m7-dE1"; */
+"daR-m7-dE1.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "ADD TO CART"; ObjectID = "duU-eP-QBK"; */
+"duU-eP-QBK.normalTitle" = "أضف الى السلة";
+
+/* Class = "UILabel"; text = "Contact Us"; ObjectID = "dvN-mZ-5pe"; */
+"dvN-mZ-5pe.text" = "إتصل بنا";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "e9V-JW-7G5"; */
+"e9V-JW-7G5.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Order Status"; ObjectID = "fhk-Hd-1kh"; */
+"fhk-Hd-1kh.text" = "حالة الطلب";
+
+/* Class = "UICommand"; title = "Item 2"; ObjectID = "gKT-zt-qUb"; */
+"gKT-zt-qUb.title" = "Item 2";
+
+/* Class = "UILabel"; text = "100$"; ObjectID = "iGt-Ub-rdJ"; */
+//"iGt-Ub-rdJ.text" = "...";
+
+/* Class = "UILabel"; text = "Help        "; ObjectID = "iXL-cK-cl1"; */
+"iXL-cK-cl1.text" = "المساعدة";
+
+/* Class = "UILabel"; text = "About"; ObjectID = "j17-jh-j2e"; */
+"j17-jh-j2e.text" = "عنّا";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "jRr-0E-gEv"; */
+"jRr-0E-gEv.text" = "الإسم";
+
+/* Class = "UILabel"; text = "Help Center"; ObjectID = "jXN-XO-dVh"; */
+"jXN-XO-dVh.text" = "مركز المساعدة";
+
+/* Class = "UITabBarItem"; title = "Settings"; ObjectID = "k5f-C2-ZVp"; */
+"k5f-C2-ZVp.title" = "الإعدادات";
+
+/* Class = "UILabel"; text = "Name vnv vvshf fkjhf skf kjhf dksfh skdjh skg"; ObjectID = "khv-hi-zXQ"; */
+"khv-hi-zXQ.text" = "الإسم…";
+
+/* Class = "UINavigationItem"; title = "Shop"; ObjectID = "lCD-z5-rQM"; */
+"lCD-z5-rQM.title" = "تسوّق";
+
+/* Class = "UILabel"; text = "\n"; ObjectID = "mpG-rO-1Zf"; */
+"mpG-rO-1Zf.text" = "لم تسمع صوتًا مثل هذا من قبل.  استعد لتجربة القوة الحاصلة على براءة اختراع والقوة المذهلة لـ Crusher Bass - جنبًا إلى جنب الآن مع التخصيص الصوتي النهائي للصوت الشخصي من قبل شركائنا في Audiodo ™.  لم تسمع أبدًا موسيقاك وأفلامك مثل هذا من قبل.  لأنه لم يكن هناك شيء مثل هذا من قبل.  كراشر باس: لا شيء يقارن.  Skullcandy Crusher هي تجربة الصوت الجهير الحسية الأصلية الوحيدة والوحيدة.  اقلب المنزلق لأسفل للحصول على صوت جهير أكثر نعومة.  اقلبها لتزعج عظامك حقًا.  بالإضافة إلى ذلك ، تتميز Crusher Evo بتحسينات في جودة الصوت مقارنةً بـ Crusher الأصلية ، لذا ستختبر نطاقًا أوسع من الجهير الأكثر عمقًا وثراءً.  اضبط لسماعك مع التطبيق.  لا أحد يسمع هو نفسه.  لهذا السبب تتميز Crusher Evo بصوت شخصي.  من خلال إجراء اختبار سريع في الوقت الفعلي على تطبيق Skullcandy ، ستقوم بإنشاء ملف تعريف صوت شخصي يتم تخزينه على سماعات الرأس لتحسين مستويات الصوت من أجلك فقط.  الصوت الأمثل بالنسبة لك.  تعمل تقنية Audiodo ™ في تطبيق Skullcandy على تحليل السمع في أذنك اليسرى واليمنى ، ثم تقوم تلقائيًا بضبط الصوت على المستويات المثلى لسمعك المحدد.  عمر بطارية كبير ودهون 40 ساعة.  ليس لديك الوقت لتوصيل سماعات الرأس الخاصة بك في كل مرة تستدير فيها.  لهذا السبب تم تصميم Crusher Evo بعمر بطارية كامل يصل إلى 40 ساعة.  بالإضافة إلى ذلك ، عندما تنخفض السرعة ، تمنحك ميزة الشحن السريع 4 ساعات إضافية من وقت الاستماع من شحن سريع لمدة 10 دقائق فقط.";
+
+/* Class = "UILabel"; text = "name"; ObjectID = "mzx-qo-6kK"; */
+"mzx-qo-6kK.text" = "الإسم";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "noX-YU-2aX"; */
+"noX-YU-2aX.text" = "الإسم";
+
+/* Class = "UILabel"; text = "Warranty"; ObjectID = "p8q-E9-6j8"; */
+"p8q-E9-6j8.text" = "الكفالة";
+
+/* Class = "UILabel"; text = "© 2022 Skullcandy.com All Rights Reserved"; ObjectID = "qTJ-A1-Ary"; */
+"qTJ-A1-Ary.text" = "© 2022 Skullcandy.com All Rights Reserved";
+
+/* Class = "UILabel"; text = "Product:"; ObjectID = "rfK-I5-S0W"; */
+"rfK-I5-S0W.text" = "المنتج:";
+
+/* Class = "UILabel"; text = "Language"; ObjectID = "rmE-gw-VwI"; */
+"rmE-gw-VwI.text" = "اللغة";
+
+/* Class = "UILabel"; text = "Number of items"; ObjectID = "rnw-Fv-oYJ"; */
+"rnw-Fv-oYJ.text" = "عدد القطع";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "s81-Fl-GZy"; */
+"s81-Fl-GZy.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Comming Soon!"; ObjectID = "sH1-fq-i7k"; */
+"sH1-fq-i7k.text" = "قريباً!";
+
+/* Class = "UIButton"; configuration.title = "Check Out"; ObjectID = "sdv-ZB-yYR"; */
+"sdv-ZB-yYR.configuration.title" = "إدفع";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "sdv-ZB-yYR"; */
+"sdv-ZB-yYR.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Wired heaphones"; ObjectID = "tCv-EQ-Cq7"; */
+"tCv-EQ-Cq7.text" = "سماعات رأس سلكية";
+
+/* Class = "UIButton"; configuration.title = "Help"; ObjectID = "u2c-vO-g7V"; */
+"u2c-vO-g7V.configuration.title" = "انقر هنا";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "u2c-vO-g7V"; */
+"u2c-vO-g7V.normalTitle" = "Button";
+
+/* Class = "UITabBarItem"; title = "Cart"; ObjectID = "v99-0n-qmp"; */
+"v99-0n-qmp.title" = "السلّة";
+
+/* Class = "UILabel"; text = "Description:"; ObjectID = "vZS-2J-U6u"; */
+"vZS-2J-U6u.text" = "الوصف:";
+
+/* Class = "UINavigationItem"; title = "Settings"; ObjectID = "wxD-Iq-lt6"; */
+"wxD-Iq-lt6.title" = "الإعدادات";
